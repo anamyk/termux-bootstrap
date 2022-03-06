@@ -19,7 +19,7 @@ if [[ $gitemail = '' ]]; then
 fi
 
 git config --global core.editor "vim"
-cp ./global-gitignore ~/.gitignore
+# cp ./global-gitignore ~/.gitignore
 git config --global core.excludesfile "$HOME/.gitignore"
 
 git config --global pull.rebase false
