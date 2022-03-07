@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/usr/bin/bash
 
 # Setup the shell
 echo "Configuring shell environment ..."
