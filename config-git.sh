@@ -27,5 +27,7 @@ git config --global pull.rebase false
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short"
 git config --global alias.l "log --graph --abbrev-commit --decorate=no --date-format:'%Y-%m-%d %H:%I:%S' --format=format:'%C(03)%>|(26)%h%C(reset) %C(04)%ad%C(reset) %C(green)%<(16,trunc)%an%C(reset) %C(bold 1)%d%C(reset) %C(bold 0)%>|(1)%s%C(reset)' --all"
 git config --global alias.st "status"
+git config --global init.defaultBranch main
+
 echo "done"
 echo ""
